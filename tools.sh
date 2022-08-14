@@ -42,8 +42,6 @@ curl -sSL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install nodejs -y
 
 
-fi
-
 sudo apt install -y libnss3-dev libnspr4-dev pkg-config libpam0g-dev libcap-ng-dev libcap-ng-utils libselinux1-dev libcurl4-nss-dev flex bison make libnss3-tools libevent-dev xl2tpd pptpd
 
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
